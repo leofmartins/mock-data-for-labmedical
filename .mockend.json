@@ -1,41 +1,10 @@
 {
   "People": {
-    "person": {
-      "hasMany": "Person"
-    }
-  },
-  "Person": {
     "_": {
-      "items": 50
+      "items": 10
     },
-    "address": {
-      "cep": {
-        "int":{
-          "min": 0,
-          "max": 9999999
-        }
-      }
-    },
-    "city": {
-      "loremWrod": {}
-    },
-    "district": {
+    "name": {
       "loremWord": {}
-    },
-    "houseNumber": {
-      "int": {
-        "min": 1,
-        "max": 9999
-      }
-    },
-    "state": {
-      "loremWord": {},
     }
-    "street": {
-      "loremWord": {}
-    },
-    "people": {
-      "belongsTo": "People"
-    },
   }
 }
