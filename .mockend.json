@@ -20,6 +20,21 @@
         "min": 0,
         "max": 99999999999
       }
+    },
+    "RG": {
+      "int": {
+        "min": 0,
+        "max": 999999
+      }
+    },
+    "maritalState": {
+      "string": ["solteiro", "casado", "viuvo", "divorciado", "separado"],
+    },
+    "phoneNumber": {
+      "int": {
+        "min": 0,
+        "max": 99999999999
+      }
     }
   }
 }
