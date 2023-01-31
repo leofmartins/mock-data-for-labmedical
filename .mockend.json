@@ -1,13 +1,7 @@
 {
-  "People": {
-   "_": {
-      "items": 10
-    },
-    "name": {
-      "loremWords": {
-        "minLength": 8,
-        "maxLength": 32
-      }
-    }
+  "User": {
+    "name": { "string": {} },
+    "online": { "boolean": {} },
+    "picture": { "regexp": "https://…" }
   }
 }
