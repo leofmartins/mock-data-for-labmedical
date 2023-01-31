@@ -40,10 +40,7 @@
       "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
     },
     "birthTown": {
-      "loremWord": {
-        "minLength": 8,
-        "maxLength": 32
-      }
+      "loremWord": {}
     },
     "emergencyContact": {
       "int": {
