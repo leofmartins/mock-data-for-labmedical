@@ -1,7 +1,7 @@
 {
   "People": {
     "name": {
-      "loremWords": {
+      "string": {
         "minLength": 8,
         "maxLength": 32
       }
