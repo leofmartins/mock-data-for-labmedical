@@ -8,6 +8,9 @@
     "_": {
       "items": 50
     },
+    "people": {
+      "belongsTo": "People"
+    },
     "address": {
       "cep": {
         "int":{
@@ -16,23 +19,23 @@
         }
       }
     },
-      "city": {
-        "loremWrod": {}
-      },
-      "district": {
-        "loremWord": {}
-      },
-      "houseNumber": {
-        "int": {
-          "min": 1,
-          "max": 9999
-        }
-      },
-      "state": {
-        "loremWord": {},
+    "city": {
+      "loremWrod": {}
+    },
+    "district": {
+      "loremWord": {}
+    },
+    "houseNumber": {
+      "int": {
+        "min": 1,
+        "max": 9999
       }
-      "street": {
-        "loremWordl": {}
-      }
+    },
+    "state": {
+      "loremWord": {},
+    }
+    "street": {
+      "loremWordl": {}
     }
   }
+}
