@@ -1,7 +1,38 @@
 {
-  "User": {
-    "name": { "string": {} },
-    "online": { "boolean": {} },
-    "picture": { "regexp": "https://…" }
+  "People": {
+    "person": {
+      "hasMany": "Person"
+    }
+  },
+  "Person": {
+    "_": {
+      "items": 50
+    },
+    "address": {
+      "cep": {
+        "int":{
+          "min": 0,
+          "max": 9999999
+        }
+      }
+    },
+      "city": {
+        "loremWrod": {}
+      }.
+      "district": {
+        "loremWord": {}
+      },
+      "houseNumber": {
+        "int": {
+          "min": 1,
+          "max": 9999
+        },
+      "state": {
+        "loremWord": {},
+      }
+      "street": {
+        "loremWordl": {}
+      },
+    }
   }
 }
