@@ -8,6 +8,12 @@
     },
     "gender": {
       "string": ["Masculino", "Feminino"]
+    },
+    "birthdate": {
+      "dateTime": {
+        "min": "01/30/1933T01:01:01",
+        "max": "01/30/2023T23:59:59Z"
+      }
     }
   }
 }
