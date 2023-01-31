@@ -12,7 +12,43 @@
     "birthdate": {
       "dateTime": {
         "min": "1933-01-31T01:01:01Z",
-        "max": "2023-31-01T23:59:59Z"
+        "max": "2023-01-31T23:59:59Z"
+      }
+    },
+    "CPF": {
+      "int": {
+        "min": 0,
+        "max": 99999999999
+      }
+    },
+    "RG": {
+      "int": {
+        "min": 0,
+        "max": 999999
+      }
+    },
+    "maritalState": {
+      "string": ["solteiro", "casado", "viuvo", "divorciado", "separado"],
+    },
+    "phoneNumber": {
+      "int": {
+        "min": 0,
+        "max": 99999999999
+      }
+    },
+    "email": {
+      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+    "birthTown": {
+      "loremWord": {
+        "minLength": 8,
+        "maxLength": 32
+      }
+    },
+    "emergencyContact": {
+      "int": {
+        "min": 0,
+        "max": 99999999999
       }
     }
   }
