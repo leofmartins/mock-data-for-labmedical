@@ -8,9 +8,6 @@
     "_": {
       "items": 50
     },
-    "people": {
-      "belongsTo": "People"
-    },
     "address": {
       "cep": {
         "int":{
@@ -36,6 +33,9 @@
     }
     "street": {
       "loremWord": {}
-    }
+    },
+    "people": {
+      "belongsTo": "People"
+    },
   }
 }
