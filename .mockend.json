@@ -4,7 +4,10 @@
       "items": 10
     },
     "name": {
-      "loremWord": {}
+      "loremWords": {
+        "minLength": 8,
+        "maxLength": 32
+      }
     }
   }
 }
