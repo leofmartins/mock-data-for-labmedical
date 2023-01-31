@@ -26,7 +26,8 @@
         "int": {
           "min": 1,
           "max": 9999
-        },
+        }
+      },
       "state": {
         "loremWord": {},
       }
