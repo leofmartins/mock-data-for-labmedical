@@ -28,7 +28,7 @@
       }
     },
     "maritalState": {
-      "string": ["solteiro", "casado", "viuvo", "divorciado", "separado"],
+      "string": ["solteiro", "casado", "viuvo", "divorciado", "separado"]
     },
     "phoneNumber": {
       "int": {
